@@ -15,4 +15,4 @@ Feature: Metodo PUT
 
     Examples:
       | nombre | apellido | checkin    | checkout   |
-      | Percy  | Cordova  | 2025-06-01 | 2025-06-25 |
+      | Percy  | Cordova  | 2026-06-01 | 2026-06-25 |

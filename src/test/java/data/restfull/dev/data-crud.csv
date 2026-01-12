@@ -1,0 +1,5 @@
+nombre,apellido,precio,checkin,checkout
+DevUser1,DevApellido1,1500,2026-01-01,2026-01-05
+DevUser2,DevApellido2,2200,2026-01-09,2026-01-16
+DevUser3,DevApellido3,500,2026-02-01,2026-02-10
+DevAdmin,DevTester,800,2026-03-01,2026-03-07

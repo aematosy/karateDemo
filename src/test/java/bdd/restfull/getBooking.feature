@@ -7,4 +7,5 @@ Feature: Obtener bookings
     * header Accept = 'application/json'
     When method GET
     Then status 200
-    * print response
+
+

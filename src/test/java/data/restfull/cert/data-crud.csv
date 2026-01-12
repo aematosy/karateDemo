@@ -1,0 +1,5 @@
+nombre,apellido,precio,checkin,checkout
+CertUser1,CertApellido1,1800,2026-01-10,2026-01-15
+CertUser2,CertApellido2,2500,2026-02-01,2026-02-10
+CertUser3,CertApellido3,3000,2026-03-05,2026-03-20
+CertAdmin,CertTester,1200,2026-04-01,2026-04-05

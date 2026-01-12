@@ -14,8 +14,8 @@ Feature: Creación de booking
     * print idBooking
 
     Examples:
-      | nombre | apellido | precio | checkin    | checkout   |
-      | Andres | Orlano   | 1250   | 2025-05-24 | 2025-05-26 |
-      | Adrian | Matos    | 152    | 2025-05-24 | 2025-05-26 |
-      | Luis   | Pajuelo  | 1250   | 2025-05-27 | 2025-05-29 |
-      | Andre  | Ibañez   | 1250   | 2025-05-21 | 2025-05-30 |
+      | nombre    | apellido | precio | checkin    | checkout   |
+      | Andres    | Guerrero | 1250   | 2026-01-24 | 2026-01-26 |
+      | Adrian    | Matos    | 152    | 2026-01-24 | 2026-01-26 |
+      | Lionel    | Messi    | 1250   | 2026-01-27 | 2026-01-29 |
+      | Cristiano | Ronaldo  | 1250   | 2026-01-21 | 2026-01-30 |

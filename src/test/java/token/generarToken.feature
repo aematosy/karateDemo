@@ -1,15 +1,15 @@
 Feature: Generar token
 
   Scenario: Generación de token
-    * url 'https://restful-booker.herokuapp.com/auth'
-    * request
-    """
-    {
-    "username" : "admin",
-    "password" : "password123"
-    }
-    """
-    When method POST
+    * url baseURL
+    Given path 'auth'
+    And header Accept = 'application/json'
+    And header Content-Type = 'application/json'
+    And request auth
+    When method post
     Then status 200
+
+    And match response.token == '#string'
     * def valorToken = response.token
-    * print 'Valor del token generado------------->', valorToken
+    * print 'Token generado:', valorToken
+
