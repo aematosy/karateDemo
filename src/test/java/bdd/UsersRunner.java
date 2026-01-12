@@ -6,7 +6,7 @@ class UsersRunner {
 
     @Karate.Test
     Karate testUsers() {
-        return Karate.run("classpath:bdd/examples/users/llamadasMetodosJava.feature")
+        return Karate.run("classpath:bdd/cloclify/time-entries.feature")
                 .karateEnv("dev")
                 //.tags("@regresion_crud")
                 .relativeTo(getClass());

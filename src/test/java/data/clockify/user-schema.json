@@ -1,0 +1,12 @@
+{
+  "id": "#string",
+  "email": "#regex ^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$",
+  "name": "#string",
+  "memberships": "#[]",
+  "profilePicture": "##string",
+  "activeWorkspace": "#string",
+  "defaultWorkspace": "#string",
+  "settings": "#object",
+  "status": "#? _ == 'ACTIVE' || _ == 'PENDING'",
+  "customFields": "#[]"
+}

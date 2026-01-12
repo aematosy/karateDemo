@@ -1,0 +1,21 @@
+{
+  "id": "#string",
+  "description": "##string",
+  "tagIds": "##[]",
+  "userId": "#string",
+  "billable": "#boolean",
+  "taskId": "##string",
+  "projectId": "##string",
+  "workspaceId": "#string",
+  "timeInterval": {
+    "start": "#string",
+    "end": "##string",
+    "duration": "##string"
+  },
+  "customFieldValues": "#[]",
+  "type": "#string",
+  "kioskId": "##string",
+  "hourlyRate": "##object",
+  "costRate": "##object",
+  "isLocked": "#boolean"
+}
